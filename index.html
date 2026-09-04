@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dancohen.tv — Motion design / Film</title>
+<meta name="description" content="Dan Cohen — motion design and film.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- ============================================================
+     HOW TO EDIT THIS PAGE
+
+     1) SHOWREEL VIDEO (near the top)
+        Find <div class="reel-embed"> below and replace the src="" on the
+        <iframe> with your Vimeo embed URL, e.g.
+        https://player.vimeo.com/video/XXXXXXXXX
+
+     2) PROJECT GRID
+        Each project is one <a class="tile"> inside <div class="grid">.
+          - href=""        -> already points at its page in /projects/
+          - data-thumb=""  -> path to that project's thumbnail image,
+                              e.g. images/manchester-city.jpg
+        Until you add a real image, a coloured placeholder with the
+        project name shows instead, so the page works before you upload
+        any images. Reorder projects by cutting/pasting whole <a> blocks.
+
+     3) IMAGES FOLDER
+        Put thumbnail files in the images/ folder next to this file,
+        matching whatever path you used in data-thumb.
+     ============================================================ -->
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo-link">
+    <div class="wordmark-box">
+      <img class="logo-img" src="images/logo.png" alt="dancohen.tv — Motion design / Film">
+    </div>
+  </a>
+  <nav>
+    <a href="index.html" class="current">WORK</a>
+    <a href="about.html">ABOUT</a>
+  </nav>
+</header>
+
+<div class="reel-wrap">
+  <div class="reel-embed" id="reel-embed">
+    <!-- Self-hosted showreel. Put the compressed MP4 in videos/showreel.mp4
+         (run it through ffmpeg with -movflags +faststart first — see
+         README.txt) and a still frame at images/showreel-poster.jpg -->
+    <video id="reel-video" controls preload="metadata" playsinline poster="images/showreel-poster.jpg">
+      <source src="videos/showreel.mp4" type="video/mp4">
+      Your browser doesn't support embedded video.
+      <a href="videos/showreel.mp4">Download the video</a> instead.
+    </video>
+    <div class="reel-play-button" id="reel-play-button"></div>
+  </div>
+</div>
+
+<div class="grid">
+
+  <a class="tile" href="projects/manchester-city-football-club.html" data-thumb="images/manchester-city-football-club-logo">
+    <div class="placeholder" style="--tile:#dbe7f7;"><span>Manchester City FC</span></div>
+  
+    <div class="tile-hover"><span>Manchester City FC</span></div>
+  </a>
+
+<a class="tile" href="projects/nicky-clarke-infra-red.html" data-thumb="images/nicky-clarke-infra-red-logo">
+    <div class="placeholder" style="--tile:#ffffff;"><span>Nicky Clarke</span></div>
+  
+    <div class="tile-hover"><span>Nicky Clarke</span></div>
+  </a>
+
+<a class="tile" href="projects/nhs.html" data-thumb="images/nhs-logo">
+    <div class="placeholder" style="--tile:#0053a1;"><span style="color:#fff;">NHS</span></div>
+  
+    <div class="tile-hover"><span>NHS</span></div>
+  </a>
+
+<a class="tile" href="projects/withington-walls-group-show.html" data-thumb="images/withington-walls-group-show-logo">
+    <div class="placeholder" style="--tile:#111111;"><span style="color:#fff;">Withington Walls</span></div>
+  
+    <div class="tile-hover"><span>Withington Walls</span></div>
+  </a>
+
+<a class="tile" href="projects/cannes-lions.html" data-thumb="images/cannes-lions-logo">
+    <div class="placeholder" style="--tile:#f2e2c4;"><span>Cannes Lions</span></div>
+  
+    <div class="tile-hover"><span>Cannes Lions</span></div>
+  </a>
+
+<a class="tile" href="projects/aviva-studios.html" data-thumb="images/aviva-studios-logo">
+    <div class="placeholder" style="--tile:#ffd400;"><span>Aviva Studios</span></div>
+  
+    <div class="tile-hover"><span>Aviva Studios</span></div>
+  </a>
+
+<a class="tile" href="projects/closed-hands.html" data-thumb="images/closed-hands-logo">
+    <div class="placeholder" style="--tile:#121212;"><span style="color:#fff;">Closed Hands</span></div>
+  
+    <div class="tile-hover"><span>Closed Hands</span></div>
+  </a>
+
+<a class="tile" href="projects/lumsdale-glass.html" data-thumb="images/lumsdale-glass-logo">
+    <div class="placeholder" style="--tile:#d9d9d9;"><span>Lumsdale Glass</span></div>
+  
+    <div class="tile-hover"><span>Lumsdale Glass</span></div>
+  </a>
+
+<a class="tile" href="projects/real-handful.html" data-thumb="images/real-handful-logo">
+    <div class="placeholder" style="--tile:#7fd9d3;"><span>Real Handful</span></div>
+  
+    <div class="tile-hover"><span>Real Handful</span></div>
+  </a>
+
+<a class="tile" href="projects/sports-bet.html" data-thumb="images/sports-bet-logo">
+    <div class="placeholder" style="--tile:#1e5fc9;"><span style="color:#fff;">Sportsbet</span></div>
+  
+    <div class="tile-hover"><span>Sportsbet</span></div>
+  </a>
+
+<a class="tile" href="projects/circus-oz.html" data-thumb="images/circus-oz-logo">
+    <div class="placeholder" style="--tile:#e7d8cd;"><span>Circus Oz</span></div>
+  
+    <div class="tile-hover"><span>Circus Oz</span></div>
+  </a>
+
+<a class="tile" href="projects/pilgrims.html" data-thumb="images/pilgrims-logo">
+    <div class="placeholder" style="--tile:#d7e3d3;"><span>Pilgrims</span></div>
+  
+    <div class="tile-hover"><span>Pilgrims</span></div>
+  </a>
+
+<a class="tile" href="projects/claire-hutchings.html" data-thumb="images/claire-hutchings-logo">
+    <div class="placeholder" style="--tile:#e4e4e4;"><span>Claire Hutchings</span></div>
+  
+    <div class="tile-hover"><span>Claire Hutchings</span></div>
+  </a>
+
+<a class="tile" href="projects/kowa-pharmaceuticals.html" data-thumb="images/kowa-pharmaceuticals-logo">
+    <div class="placeholder" style="--tile:#ffffff;"><span>Kowa Pharmaceuticals</span></div>
+  
+    <div class="tile-hover"><span>Kowa Pharmaceuticals</span></div>
+  </a>
+
+<a class="tile" href="projects/multiple-myeloma-animation.html" data-thumb="images/multiple-myeloma-animation-logo">
+    <div class="placeholder" style="--tile:#e3cfe0;"><span>Multiple Myeloma</span></div>
+  
+    <div class="tile-hover"><span>Multiple Myeloma</span></div>
+  </a>
+
+<a class="tile" href="projects/trumalt.html" data-thumb="images/trumalt-logo">
+    <div class="placeholder" style="--tile:#2447a3;"><span style="color:#fff;">Trumalt</span></div>
+  
+    <div class="tile-hover"><span>Trumalt</span></div>
+  </a>
+
+<a class="tile" href="projects/eiss-money-matters.html" data-thumb="images/eiss-money-matters-logo">
+    <div class="placeholder" style="--tile:#eef6fb;"><span>EISS — Money Matters</span></div>
+  
+    <div class="tile-hover"><span>EISS — Money Matters</span></div>
+  </a>
+
+<a class="tile" href="projects/takeda-epns.html" data-thumb="images/takeda-epns-logo">
+    <div class="placeholder" style="--tile:#e0122a;"><span style="color:#fff;">Takeda EPNS</span></div>
+  
+    <div class="tile-hover"><span>Takeda EPNS</span></div>
+  </a>
+
+<a class="tile" href="projects/activate-animation.html" data-thumb="images/activate-animation-logo">
+    <div class="placeholder" style="--tile:#d6c9ee;"><span>Activate Animation</span></div>
+  
+    <div class="tile-hover"><span>Activate Animation</span></div>
+  </a>
+
+<a class="tile" href="projects/heart-failure-animation.html" data-thumb="images/heart-failure-animation-logo">
+    <div class="placeholder" style="--tile:#c9e0e7;"><span>Heart Failure Animation</span></div>
+  
+    <div class="tile-hover"><span>Heart Failure Animation</span></div>
+  </a>
+
+<a class="tile" href="projects/ccep-supply-chain-volunteer-day.html" data-thumb="images/ccep-supply-chain-volunteer-day-logo">
+    <div class="placeholder" style="--tile:#d1e0c4;"><span>CCEP Supply Chain Volunteer Day</span></div>
+  
+    <div class="tile-hover"><span>CCEP Supply Chain Volunteer Day</span></div>
+  </a>
+
+<a class="tile" href="projects/partylite-1-month-of-being-balanced.html" data-thumb="images/partylite-1-month-of-being-balanced-logo">
+    <div class="placeholder" style="--tile:#f2c230;"><span>PartyLite — Be Happy</span></div>
+  
+    <div class="tile-hover"><span>PartyLite — Be Happy</span></div>
+  </a>
+
+</div>
+
+<footer>
+  <a href="http://vimeo.com/dancohentv" target="_blank" rel="noopener" aria-label="Vimeo">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.396 7.164c-.093 2.026-1.507 4.8-4.245 8.32C15.323 19.16 12.93 21 10.97 21c-1.214 0-2.24-1.12-3.079-3.36L6.11 11.28C5.51 9.04 4.868 7.92 4.183 7.92c-.148 0-.665.31-1.55.928L1.6 7.55c.976-.858 1.938-1.716 2.885-2.574C5.83 3.744 6.822 3.09 7.478 3.03c1.562-.15 2.523.918 2.883 3.204.388 2.466.657 4 .807 4.605.446 2.026.937 3.038 1.473 3.038.417 0 1.044-.66 1.881-1.98.836-1.32 1.284-2.325 1.343-3.018.12-1.14-.328-1.71-1.343-1.71-.478 0-.97.11-1.474.328 1.001-3.28 2.833-4.87 5.526-4.786 2.019.058 2.972 1.365 2.86 3.918Z"/></svg>
+  </a>
+  <a href="http://instagram.com/tiltshiftstudio" target="_blank" rel="noopener" aria-label="Instagram">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+  </a>
+</footer>
+
+<script>
+  // Homepage showreel: clicking anywhere on the video area starts playback
+  // and hides the custom play button; it reappears if the video is paused
+  // or ends, so it always reflects the actual play state.
+  (function () {
+    var wrap = document.getElementById('reel-embed');
+    var video = document.getElementById('reel-video');
+    var button = document.getElementById('reel-play-button');
+    if (!wrap || !video || !button) return;
+
+    wrap.addEventListener('click', function (e) {
+      if (e.target === video) return; // let native controls handle their own clicks
+      if (video.paused) { video.play(); } else { video.pause(); }
+    });
+    video.addEventListener('play', function () { button.classList.add('is-hidden'); });
+    video.addEventListener('pause', function () { button.classList.remove('is-hidden'); });
+    video.addEventListener('ended', function () { button.classList.remove('is-hidden'); });
+  })();
+</script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
